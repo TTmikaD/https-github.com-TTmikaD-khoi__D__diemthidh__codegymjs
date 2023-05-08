@@ -16,11 +16,14 @@ function click_caculator() {
     case KV2__NT:
       document.getElementById('show__result').innerHTML =
         general__caculator + 0.5;
+      break;
     case KV2:
       document.getElementById('show__result').innerHTML =
         general__caculator + 0.25;
+      break;
     case KV3:
       document.getElementById('show__result').innerHTML =
         general__caculator + 0;
+      break;
   }
 }
