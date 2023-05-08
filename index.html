@@ -17,7 +17,27 @@
       <a href="/page2.html">Other page</a>
     </nav>
     <main>
-      <h1>Home page</h1>
+      <h1>Tính điểm ĐH khối D</h1>
+
+      <form action="">
+        <label for="Math">Môn Toán:</label>
+        <input type="text" id="row_math" name="Math" /><br /><br />
+        <label for="Literature">Môn Văn:</label>
+        <input type="text" id="row_literature" name="Literature" /><br /><br />
+        <label for="English">Môn Anh:</label>
+        <input type="text" id="row_english" name="English" /><br /><br />
+
+        <label for="row_location">Khu vực:</label>
+        <select name="row_location" id="location">
+          <option value="KV1">KV1</option>
+          <option value="KV2__NT">KV2--NT</option>
+          <option value="KV2">KV2</option>
+          <option value="KV3">KV3</option>
+        </select>
+        <br />
+        <button id="click_result" onclick="click_caculator()">Tính điểm</button>
+        <div class="show__result">Tổng điểm ĐH Khối D của bạn là:</div>
+      </form>
     </main>
   </body>
 </html>
